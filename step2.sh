@@ -57,6 +57,6 @@ cat > ~/.m2/settings.xml << EOFMVEN
 </settings>
 EOFMVEN
 
-sdk install maven 
+echo Please run the following command :
+echo 	sdk install maven
 
-# sdk  install lazybones	# if that's your thing
