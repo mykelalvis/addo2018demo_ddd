@@ -9,7 +9,7 @@ cat > ~/.m2/settings.xml << EOFMVEN
   xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd"
   xmlns="http://maven.apache.org/SETTINGS/1.1.0"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <localRepository>${user.home}/.m2/repository</localRepository>
+  <localRepository>\${user.home}/.m2/repository</localRepository>
   <servers>
     <server>
       <id>nexus</id>
