@@ -71,4 +71,5 @@ sdkman_beta_channel=false
 
 SDKMAN
 # sdk -y install lazybones	# if that's your thing
-echo "Please start a new shell (log out and back in is best)
+echo "Please start a new shell (log out and back in is best)"
+
