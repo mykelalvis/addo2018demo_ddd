@@ -43,6 +43,10 @@ curl https://raw.githubusercontent.com/mitsuhiko/pipsi/master/get-pipsi.py | pyt
 
 echo "Installing JDK"
 sudo yum -y install ./Downloads/jdk*.rpm
+
+echo "Setup MAVEN_HOME prior to sdkman install"
+echo "export MAVEN_HOME=${HOME}/.sdkman/candidates/maven/" >> ${HOME}/.bashrc
+echo "#Insert others above here" >> ${HOME}/.bashrc
 echo "Installing sdkman"
 curl -s "https://get.sdkman.io" | bash
 mkdir -p ${HOME}/.sdkman/etc
